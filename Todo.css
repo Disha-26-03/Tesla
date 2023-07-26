@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     height: 100vh;
+     background-color: rgb(144, 245, 237);
+
+}
+.wrapper h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+ul li.complete{
+    text-decoration-line: line-through;
+    
+}
+ul li{
+    color: black;
+   list-style: none;
+}
